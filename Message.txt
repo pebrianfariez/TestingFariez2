@@ -1,0 +1,1138 @@
+hp donni : 6283894646459
+628159742166
+
+1416satu
+
+rm
+151-152
+
+123-124
+
+230
+
+304
+
+224
+
+ALTER TABLE SIMASBANKINGPROD.BILL_PAYMENT_MERCHANT
+ADD (FAVORITE  VARCHAR2(5 CHAR));
+
+PAM_SURABAYA
+50002113
+50002112
+PAM_SEMARANG
+540400415
+540400416
+PAM_PALYJA
+102000003
+102000002
+
+Palyja
+000519609 
+000017953 
+000037700
+
+PAM AETRA
+60033301, 60033302, 60033303, 60033304, 60033305
+
+
+Prepaid : 
+Biller Code : 010002 - Telkomsel Prepaid => ^(0812|0813|0821|0822)XXXXXXXX 12 Digit
+Biller Code : 013002 - XL/Axis Prepaid => 0817786800
+Biller Code : 011002 - Ooredoo Indosat => 08568278229, 08159525008
+Biller Code : 012102 - Three Prepaid => 0895123450 (edited)
+Biller Code : 019003 - Smartfren Prepaid- 628811101090, 628811101091
+
+1) Telkomsel Postpaid
+0811982700
+
+2) XL/Axis Postpaid
+0817786800
+
+3) Smartfren Postpaid
+088211058818  
+088211058819  
+088211058820  
+088211058821
+
+4) Three Postpaid
+0895123450
+ 
+update bill_payment_merchant set favorite = '1' where code = '010003';
+
+insert into lookup (id,type,code,name,priority,description,shortname,status,filter)
+values (LOOKUP_ID_SEQ.nextval,'transaction','transferfundDirect','Transfer Fund Direct',null,'transfer fund direct','FT',(select id from status where type='lookup' and code='active'),null);
+
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'FLAG','ENABLE_DIRECT_TRANSFER','1eb637e3f1e26616',
+  'enable direct internal transfer',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'admin'));
+
+  
+  {\"id\":\"13.7\",\"code\":\"menuSmsEmailNotif\",\"name\":\"SMS and Email Notification Service\",\"icon\":\"mailUs.png.png\",\"functionMenu\":\"inAppBrowser(\\\"inAppBrowserAngularV2.do?action=inAppBrowserAngularMobile&route=smsEmailNotifList&view=customerMenu\\\");\",\"lvlMenu\": \"customerMenu\",\"nodeList\":null}
+
+lock 		: 10 jt
+threshold 	: 1 jt
+balance 	: 30 jt
+vctamount 	: 9 juta
+
+
+fase top up 1
+
+if (30 jt > 9 jt) {
+	top up = 10 jt + 9 jt >> 19 jt
+}else{
+	(misal balance cuma 8 jt)
+	top up = 10 jt + 8 jt >> 18 jt
+}
+
+
+fase top up 2
+
+if (20 jt > 9 jt) {
+	top up = 19 jt + 18 jt >> 37 jt
+}else{
+	(misal balance cuma 8 jt)
+	top up = 19 jt + 8 jt >> 27 jt
+}
+
+fase top up 2 (revisi)
+
+if (20 jt > 9 jt) {
+	top up = 19 jt + 10 jt >> 29 jt
+}else{
+	(misal balance cuma 8 jt)
+	top up = 19 jt + 8 jt >> 27 jt
+}
+
+
+user variables 
+PATH - C:\Users\Fariez\AppData\Roaming\npm
+TEMP - %USERPROFILE%\AppData\Local\Temp
+TMP - %USERPROFILE%\AppData\Local\Temp
+
+system variables 
+ComSpec - C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK - NO
+JAVA_HOME - C:\Program Files\Java\jdk1.6.0_45
+Path - %SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.6.0_18\bin;D:\sts-3.4.0.RELEASE\plugins\org.apache.ant_1.8.4.v201303080030\bin;C:\Program Files\TortoiseSVN\bin;C:\cygwin64\bin;C:\Program Files\nodejs\;Z:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\platform-tools;Z:\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\tools;C:\Program Files (x86)\MKVtoolnix;C:\Program Files (x86)\Skype\Phone\
+PATHEXT - .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+
+
+
+
+ANDROID_HOME - D:\\adt-bundle-windows-x86_64-20131030\sdk
+Path - C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;
+C:\Program Files\Intel\iCLS Client\;
+%SystemRoot%\system32;
+%SystemRoot%;
+%SystemRoot%\System32\Wbem;
+%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
+C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;
+C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;
+C:\Program Files\TortoiseSVN\bin;
+C:\Program Files\nodejs;
+%JAVA_HOME%\bin;%ANT_HOME%\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;
+C:\Program Files (x86)\Skype\Phone\
+
+
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Java\jdk1.6.0_18\bin;D:\sts-3.4.0.RELEASE\plugins\org.apache.ant_1.8.4.v201303080030\bin;C:\Program Files\TortoiseSVN\bin;C:\cygwin64\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\MKVtoolnix;%JAVA_HOME%\bin;%ANT_HOME%\bin;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
+
+http://localhost:8080/IBORCL/server-init?action=debugProp
+http://localhost:8080/IBORCL/server-init?action=PingUMG
+
+
+inq on us 
+
+   [retrieval_reference_number] (string) : [000000061446]
+   [systems_trace_audit_number] (string) : [062446]
+   [time_local_transaction] (string) : [164527]
+   [to_account] (string) : [0002838796]
+   [transmission_date_time] (string) : [0904094527]
+
+02330200B23A44E188E280000000000016000002370000000000000000000000090409452706244616452709030903609901100066031530315300000006144615390100628811214566   SMS SMART                               0056144636003153100031790678100002838796003153
+
+
+
+
+on us
+[retrieval_reference_number] (string) : [000000051569]
+   [systems_trace_audit_number] (string) : [634586]
+   [time_local_transaction] (string) : [171343]
+   [to_account] (string) : [0532000831]
+   [transmission_date_time] (string) : [0917071342]
+
+04940200F23A44E188E38002000000001600000215506288112145664490000000000000001050000091707134263458617134301140114609901100066031530388100000005156915390100628811214566   SMS SMART                               00551569108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791100532000831003153
+
+
+
+
+
+
+
+
+
+cafc2f44-365d-4cde-9e84-c054b67a3a5f > em client
+inter bank ppob 
+   [acquiring_institution_identification_code] (string) : [153]
+   [additional_data__national] (string) : [51569]
+   [additional_data__private] (string) : [NAMA TUJUAN REKENING TRANSFER.                                                                            00]
+   [amount_transaction] (string) : [1050000]
+   [authorising_identification_response_length] (string) : [6]
+   [card_acceptor_identification_code] (string) : [628811214566   ]
+   [card_acceptor_name/location] (string) : [SMS SMART                               ]
+   [card_acceptor_terminal_identification] (string) : [15390100]
+   [currency_code_transaction] (string) : [360]
+   [date_local_transaction] (string) : [0114]
+   [date_settlement] (string) : [0114]
+   [forwarding_institution_identification_code] (string) : [881]
+   [from_account] (string) : [0029125791]
+   [merchant_type] (string) : [6099]
+   [message type] (string) : [0200]
+   [packetLength] (integer) : [495]
+   [point_of_service_capture_code] (string) : [6]
+   [point_of_service_condition_code] (string) : []
+   [point_of_service_entry_mode] (string) : [11]
+   [primary_account_number_(pan)] (string) : [506288112145664]
+   [processing_code] (string) : [490000]
+   [receiving_institution_identification_code] (string) : [153]
+   [reserved_for_private_use] (string) : [050]
+   [reserved_private_3] (string) : [1000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000]
+   [retrieval_reference_number] (string) : [000000051569]
+   [systems_trace_audit_number] (string) : [732573]
+   [time_local_transaction] (string) : [171343]
+   [to_account] (string) : [5574155] 
+   [transmission_date_time] (string) : [0508071342]
+
+   
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000050807134273257317134301140114609901100066031530388100000005156915390100628811214566   SMS SMART                               00551569108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791075574155003050
+
+
+
+
+inbank ppob 
+   [acquiring_institution_identification_code] (string) : [153]
+   [additional_data__national] (string) : [51569]
+   [additional_data__private] (string) : [NAMA TUJUAN REKENING TRANSFER.                                                                            00]
+   [amount_transaction] (string) : [1050000]
+   [authorising_identification_response_length] (string) : [6]
+   [card_acceptor_identification_code] (string) : [628811214566   ]
+   [card_acceptor_name/location] (string) : [SMS SMART                               ]
+   [card_acceptor_terminal_identification] (string) : [15390100]
+   [currency_code_transaction] (string) : [360]
+   [date_local_transaction] (string) : [0114]
+   [date_settlement] (string) : [0114]
+   [forwarding_institution_identification_code] (string) : [881]
+   [from_account] (string) : [0029125791]
+   [merchant_type] (string) : [6099]
+   [message type] (string) : [0200]
+   [packetLength] (integer) : [495]
+   [point_of_service_capture_code] (string) : [6]
+   [point_of_service_condition_code] (string) : []
+   [point_of_service_entry_mode] (string) : [11]
+   [primary_account_number_(pan)] (string) : [506288112145664]
+   [processing_code] (string) : [490000]
+   [receiving_institution_identification_code] (string) : [153]
+   [reserved_for_private_use] (string) : [153]
+   [reserved_private_3] (string) : [1000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000]
+   [retrieval_reference_number] (string) : [000000051569]
+   [systems_trace_audit_number] (string) : [634576]
+   [time_local_transaction] (string) : [171343]
+   [to_account] (string) : [9421017] 
+   [transmission_date_time] (string) : [0508071342]
+
+   
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000050807134263457617134301140114609901100066031530388100000005156915390100628811214566   SMS SMART                               00551569108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791079421017003153
+
+----------------------------------------------
+------------------------------ mitra vcore ------------------------------------------------------------------------------------------------------------------------------------------------------
+Insert VCORE 
+02950200F23A400188E0800C000000004400008016510481100111154556990000000000000510000011120426381015051126381112111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0011003                   06561000001A
+
+Reverse VCORE 
+02950400F23A400188E0800C000000004400008016510481100111154556990000000000000510000011120426381015021126381112111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0011003                   06561000001A
+
+select to_char(transaction_date, 'DD-MM-YYYY') as "Date", to_char(transaction_date, 'HH24:MI:SS') as "Time"  from mitra_transaction;
+
+02950200F23A400188E0800C000000004400008016510481100111154556990000000000000510000011120426381015051126381109231260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0011003                   06561000001A
+update virtualcore_billpayment set state = '', settlement_id ='' where state ='COMPLETE';
+update virtualcore_billpayment set state = '', settlement_id ='' where state ='INITIATE';
+
+select sum(total_amount) from virtualcore_billpayment where (state ='INITIATE') or (state is null)
+
+ACLK0000013376//1
+
+[!response] (string) : [,ACC::ACC/ACCOUNT.TITLE.1::ACCOUNT.TITLE.1/CUSTOMER::CUSTOMER/LIM.REF::LIM.REF/TYPE::TYPE/CCY::CCY/AMOUNT::AMOUNT/VALUED::VALUED/CLEARED::CLEARED/OPENING.DATE::OPENING.DATE/BRANCH::BRANCH,"","22 NOV 2011","0009421017      " "Smart AI                      " "940021    " "     " "TabSmartDompet " "IDR" "  77,098,720,170.59" "  77,098,630,170.59" "  77,098,720,170.59" "19 SEP 2011" "KCU Thamrin                   ","Total Value" "  77,098,720,170.59" "  77,098,630,170.59" "  77,098,720,170.59"]
+
+   [retrieval_reference_number] (string) : [013316112638]
+
+- cari log di umg >> grep -F 'ENQUIRY.SELECT' log/umg.log.* |less
+- vi log/umg.log.2
+
+- ps -alrt  <<buat sortir log
+
+0295
+0200
+F23A 4001 88E0 800C 0000 0000 4400 0080
+1111 0010 0011 1010 
+0100 0000 0000 0001
+1000 1000 1110 0000
+1000 0000 0000 1100
+0000 0000 0000 0000
+0000 0000 0000 0000
+0100 0100 0000 0000 
+0000 0000 1000 0000
+
+16 5104811001111545
+569900
+000000000005100000
+1112042638
+101505
+112638
+1112
+1112
+6099
+06121100
+03153
+013316112638
+T001    
+0              
+JAKARTA                                 
+360
+0166282310000005   
+0336282310000002   0               0
+011003                   
+06561000
+001 A
+
+
+ini message buat bit 4 amount jd 12 lenght
+02890200F23A400188E0800C000000004400008016510481100111154556990000000510000008190926381015051126380819111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0011003                   06561000001A
+
+ppob - 5099 procode - first media
+[systems_trace_audit_number] (string) : [197860]
+[transmission_date_time] (string) : [0911042638]
+[amount_transaction] (string) : [200600]
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000000020060009110426381978601126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0060301                   06561000001A
+
+
+ppob - 5099 procode - first media
+[systems_trace_audit_number] (string) : [191775]
+[transmission_date_time] (string) : [0515042638]
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000001000000005150426381917751126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0060301                   06561000001A
+
+
+23/03/2015 ppob - 5099 procode - 0013001 XL XPlor - stan : 631217
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000000010060003230426386312171126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0013001                   06561000001A
+
+ppob - 5099 procode - baznas
+[systems_trace_audit_number] (string) : [191436]
+[transmission_date_time] (string) : [0213042638]
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000001000060002130426381914361126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0009901                   06561000001A
+
+03/10/2014 ppob, baznas, stan 111129
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000001000060010030426381111291126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0009901                   06561000001A
+
+22/06/2015 ppob - 599 procode - 017003 - stan 131607
+02950200F23A400188E0800C000000004400008016510481100111154556990000000000000510000006220426381316071126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0017003                   06561000001A
+
+
+inquiry billpay
+30/12/2014 ppob - 50100 procode - 013001 XL XPlor - stan :038606
+02530200B23A44C189E08008000000004400008038000000000000000000000012300435170386061135171024102460990110006031530388100000002860650115390100628811214566   SMS SMART                               36001162859786800013001                   160088112824694768001B
+
+transaksi billpay
+30/12/2014 1024043733 - 50100 procode - 013001 XL XPlor - stan : 038607
+14410200B23A44C189E0800C000000004400008050100000000000002502750012300437330386071137331024102460990110006031530388100000002860750115390100628811214566   SMS SMART                               36059808PAYMENT    : XL XPlor                 IDPEL      : 62859786800              NAME       : ARIEFIN C. NOORMAN       BILLING AMT: RP. 250.275              ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 250.275                                                                                          62859786800     406529893       11                000000000000000000000000000000000000                000000000000000000000000000000000000                000000000000000000000000000000000000                000000250275000000000000000000000000ARIEFIN C. NOORMAN                      04102011  59808PAYMENT    : XL XPlor                 IDPEL      : 62859786800              NAME       : ARIEFIN C. NOORMAN       BILLING AMT: RP. 250.275              ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 250.275                                                                                          62859786800     406529893       11                000000000000000000000000000000000000                000000000000000000000000000000000000                000000000000000000000000000000000000                000000250275000000000000000000000000ARIEFIN C. NOORMAN                      04102011  013001                   160088112824694768001B
+
+inquiry billpay
+30/12/2014 1230094226   [systems_trace_audit_number] (string) : [038337]
+02530200B23A44C189E08008000000004400008038000000000000000000000012300942260383371642261021102160990110006031530388100000002830550115390100628811214566   SMS SMART                               36001162817786800013001                   160088112824694768001B
+
+30/12/2014 1230094246 [systems_trace_audit_number] (string) : [038348]
+14410200B23A44C189E0800C000000004400008050100000000000005945160012300942460383481642461021102160990110006031530388100000002830650115390100628811214566   SMS SMART                               36059808PAYMENT    : XL XPlor                 IDPEL      : 62817786800              NAME       : CITRA PUSPITA SARI       BILLING AMT: RP. 594.516              ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 594.516                                                                                          62817786800     406529393       11                000000000000000000000000000000000000                000000000000000000000000000000000000                000000000000000000000000000000000000                000000594516000000000000000000000000CITRA PUSPITA SARI                      04102011  59808PAYMENT    : XL XPlor                 IDPEL      : 62817786800              NAME       : CITRA PUSPITA SARI       BILLING AMT: RP. 594.516              ADMIN BANK : RP. 0                    PAYMENT AMT: RP. 594.516                                                                                          62817786800     406529393       11                000000000000000000000000000000000000                000000000000000000000000000000000000                000000000000000000000000000000000000                000000594516000000000000000000000000CITRA PUSPITA SARI                      04102011  013001                   160088112824694768001B
+
+
+
+ppob buat transfer
+[acquiring_institution_identification_code] (string) : [153]
+   [additional_data__national] (string) : [26539]
+   [additional_data__private] (string) : [DESTINATION CUST NAME1        1234567890123456                                                            00]
+   [amount_transaction] (string) : [500100]
+   [authorising_identification_response_length] (string) : [6]
+   [card_acceptor_identification_code] (string) : [628811214566   ]
+   [card_acceptor_name/location] (string) : [SMS SMART                               ]
+   [card_acceptor_terminal_identification] (string) : [15390100]
+   [currency_code_transaction] (string) : [360]
+   [date_local_transaction] (string) : [1003]
+   [date_settlement] (string) : [1003]
+   [forwarding_institution_identification_code] (string) : [881]
+   [from_account] (string) : [0024377447]
+   [merchant_type] (string) : [6099]
+   [message type] (string) : [0200]
+   [packetLength] (integer) : [496]
+   [point_of_service_capture_code] (string) : [6]
+   [point_of_service_condition_code] (string) : []
+   [point_of_service_entry_mode] (string) : [11]
+   [primary_account_number_(pan)] (string) : [506288112145664]
+   [processing_code] (string) : [490000]
+   [receiving_institution_identification_code] (string) : [153]
+   [reserved_for_private_use] (string) : [153]
+   [reserved_private_3] (string) : [1000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000]
+   [retrieval_reference_number] (string) : [000000026539]
+   [systems_trace_audit_number] (string) : [026412]
+   [time_local_transaction] (string) : [133937]
+   [to_account] (string) : [9421017]
+   [transmission_date_time] (string) : [0508063937]
+
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000000500100050806393702641213393710031003609901100066031530388100000002653915390100628811214566   SMS SMART                               00526539108DESTINATION CUST NAME1        1234567890123456                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100024377447079421017003153
+
+
+interbank trf
+   [acquiring_institution_identification_code] (string) : [153]
+   [additional_data__national] (string) : [29429]
+   [additional_data__private] (string) : [GUE LO GUE LO GUE LO GUW LOE                                                                              00]
+   [amount_transaction] (string) : [2000100]
+   [authorising_identification_response_length] (string) : [6]
+   [card_acceptor_identification_code] (string) : [628811214566   ]
+   [card_acceptor_name/location] (string) : [SMS SMART                               ]
+   [card_acceptor_terminal_identification] (string) : [15390100]
+   [currency_code_transaction] (string) : [360]
+   [date_local_transaction] (string) : [1028]
+   [date_settlement] (string) : [1028]
+   [forwarding_institution_identification_code] (string) : [881]
+   [from_account] (string) : [0029125791]
+   [merchant_type] (string) : [6099]
+   [message type] (string) : [0200]
+   [packetLength] (integer) : [498]
+   [point_of_service_capture_code] (string) : [6]
+   [point_of_service_condition_code] (string) : []
+   [point_of_service_entry_mode] (string) : [11]
+   [primary_account_number_(pan)] (string) : [506288112145664]
+   [processing_code] (string) : [490000]
+   [receiving_institution_identification_code] (string) : [153]
+   [reserved_for_private_use] (string) : [011]
+   [reserved_private_3] (string) : [1000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000]
+   [retrieval_reference_number] (string) : [000000029429]
+   [systems_trace_audit_number] (string) : [031154]
+   [time_local_transaction] (string) : [141002]
+   [to_account] (string) : [1145277123]
+   [transmission_date_time] (string) : [0423071002]
+04940200F23A44E188E38002000000001600000215506288112145664490000000000000002000100042307100203115414100210281028609901100066031530388100000002942915390100628811214566   SMS SMART                               00529429108GUE LO GUE LO GUE LO GUW LOE                                                                              003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791101145277123003011
+//////////////////////////buat trf 
+
+
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [022465]
+   [time_local_transaction] (string) : [102053]
+   [to_account] (string) : [11223344]
+   [transmission_date_time] (string) : [0211032052]
+
+04920200F23A44E188E38002000000001600000215506288112145664490000000000000001030000021103205202246510205301140114609901100066031530388100000005146515390100628811214566   SMS SMART                               00551465108GUE LO GUE LO GUE LO GUW LOE                                                                              003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000031531000291257910811223344003011
+
+
+
+
+   [systems_trace_audit_number] (string) : [021473]
+   [time_local_transaction] (string) : [111827]
+   [to_account] (string) : [11223344]
+   [transmission_date_time] (string) : [0210041827]
+
+04920200F23A44E188E38002000000001600000215506288112145664490000000000000001030000021004182702147311182701140114609901100066031530388100000005147315390100628811214566   SMS SMART                               00551473108GUE LO GUE LO GUE LO GUW LOE                                                                              003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000031531000291257910811223344003011
+
+
+
+
+   [systems_trace_audit_number] (string) : [731483]
+   [time_local_transaction] (string) : [112631]
+   [to_account] (string) : [11223344]
+   [transmission_date_time] (string) : [0213042631]
+
+04920200F23A44E188E38002000000001600000215506288112145664490000000000000001030000021304263173148311263101140114609901100066031530388100000005148315390100628811214566   SMS SMART                               00551483108GUE LO GUE LO GUE LO GUW LOE                                                                              003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000031531000291257910811223344003011
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [021488]
+   [time_local_transaction] (string) : [113734]
+   [to_account] (string) : [584488]
+   [transmission_date_time] (string) : [0210043733]
+
+04900200F23A44E188E38002000000001600000215506288112145664490000000000000001030000021004373302148811373401140114609901100066031530388100000005148815390100628811214566   SMS SMART                               00551488108GUE LO GUE LO GUE LO GUW LOE                                                                              003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C000000000315310002912579106584488003011
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [021492]
+   [time_local_transaction] (string) : [114033]
+   [to_account] (string) : [584488]
+   [transmission_date_time] (string) : [0210044033]
+
+04900200F23A44E188E38002000000001600000215506288112145664490000000000000001040000021004403302149211403301140114609901100066031530388100000005149215390100628811214566   SMS SMART                               00551492108DESTINATION CUST NAME1        1234567890123456                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C000000000315310002912579106584488003014
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [731503]
+   [time_local_transaction] (string) : [131622]
+   [to_account] (string) : [5574155]
+   [transmission_date_time] (string) : [0213061622]
+
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000021306162273150313162201140114609901100066031530388100000005150315390100628811214566   SMS SMART                               00551503108DESTINATION CUST NAME1        1234567890123456                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791075574155003002
+
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [021507]
+   [time_local_transaction] (string) : [131920]
+   [to_account] (string) : [5574155]
+   [transmission_date_time] (string) : [0210061920]
+
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000021006192002150713192001140114609901100066031530388100000005150715390100628811214566   SMS SMART                               00551507108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791075574155003009
+
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [021512]
+   [time_local_transaction] (string) : [132308]
+   [to_account] (string) : [5574155]
+   [transmission_date_time] (string) : [0210062308]
+
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000021006230802151213230801140114609901100066031530388100000005151215390100628811214566   SMS SMART                               00551512108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791075574155003050
+
+
+
+
+
+
+   [systems_trace_audit_number] (string) : [731569]
+   [time_local_transaction] (string) : [171343]
+   [to_account] (string) : [5574155]
+   [transmission_date_time] (string) : [0213071342]
+
+04910200F23A44E188E38002000000001600000215506288112145664490000000000000001050000021307134273156917134301140114609901100066031530388100000005156915390100628811214566   SMS SMART                               00551569108NAMA TUJUAN REKENING TRANSFER.                                                                            003601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100029125791075574155003050
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------ cara buat apk ------------------------------------------------------------------------------------------------------------------------------------------------------
+cordova create project com.yourdomain.project Project
+cordova platform add ....(ios,android,wp7,wp8,blackberry10)
+cordova plugin add ....(alamat http)
+cordova build
+cordova prepare
+cordova run android
+
+
+UPDATE app_user SET last_active=null,login_failed=0 where login_name='fariezpebrian28';
+UPDATE user SET last_active=null,login_failed=0 where login_name='user01';
+
+
+data confirm billpay :{targetAccount=Smartfren Prepaid, billAmount=0, invoiceNo=, lang=in, amount=10000.0, totalAmountDebited=10000.0, displayString=null, subscriberNoInput=1234567891, totalBankCharge=0.0, merchantCurrency=IDR, confirmPage=[<div class='m_content-title-confirmbillpay'>Konfirmasi Transaksi</div>, <br>, <div class='m_content-caption'>Tanggal Transaksi</div>|<div class='m_content-field'>04 Des 2014</div>, <div class='m_content-caption'>Jam Transaksi</div>|<div class='m_content-field'>10:02:30</div>, <div class='m_content-caption'>Kategori Biller</div>|<div class='m_content-field'>Isi Pulsa</div>, <div class='m_content-caption'>Nama Biller</div>|<div class='m_content-field'>Smartfren Prepaid</div>, <div class='m_content-caption-accnumber'>Nomor Rekening</div>|<div class='m_content-field-accnumber'>0001216023</div>, <hr>, <div class='m_content-caption'>Nomor Telepon</div>|<div class='m_content-field'>1234567891</div>, <div class='m_content-caption-currency'>Denominasi</div>|<div class='m_content-field-currency'>IDR</div> <div class='m_content-field-currency'>10000</div>, <hr>, <div class='m_content-caption-charge'>Admin Bank</div>|<div class='m_content-field-charge'>IDR</div> <div class='m_content-field-charge'>0.0</div>, <div class='m_content-caption-totalamount'>Jumlah Pembelian</div>|<div class='m_content-field-totalamount'>IDR</div> <div class='m_content-field-totalamount'>10000.0</div>], bankCharge=0.0, amountNumber=10000.0, customerName=null, responseCode=00, billerTraceNumber=null, idbillPay=7, accSelectInput=0001216023, billPaymentMerchantCode=019003, billingInfo=null, transactionDate=Thu Dec 04 10:02:30 ICT 2014, billingPaymentType=online, systemsTraceAuditNumber=null, tax=0.0, BillPeriod=null, descInput=null, displayType=6, bpmTransRefNum=BPM-136648-1417662150383, billingInfoBuffer=null}
+
+data result billpay :{responseMessage=No Error, transRefNum=BPM-136648-1417662150383, resultPage=[<div class='m_content-title-resultbillpay'>Pembelian Berhasil</div>, <br>, <div class='m_content-caption'>Tanggal Transaksi</div>|<div class='m_content-field'>04 Des 2014</div>, <div class='m_content-caption'>Jam Transaksi</div>|<div class='m_content-field'>10:04:10</div>, <div class='m_content-caption'>Kategori Biller</div>|<div class='m_content-field'>Isi Pulsa</div>, <div class='m_content-caption'>Nama Biller</div>|<div class='m_content-field'>Smartfren Prepaid</div>, <div class='m_content-caption-accnumber'>Nomor Rekening</div>|<div class='m_content-field-accnumber'>0001216023</div>, <div class='m_content-caption'>Nomor Referensi Transaksi</div>|<div class='m_content-field'>BPM-136648-1417662150383</div>, <div class='m_content-caption'>Nomor Telepon</div>|<div class='m_content-field'>1234567891</div>, <div class='m_content-caption-totalamount'>Jumlah</div>|<div class='m_content-field-totalamount'>IDR</div> <div class='m_content-field-totalamount'>10000</div>, <hr>, PAYMENT|Smart Prepaid, IDPEL|628811000953, VOUCHER REF|358913251737, DENOMINASI|RP. 10.000, , , , ], responseCode=00, result={displayString=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       , totalBankCharge=null, status=success, displayList=[[PAYMENT, Smart Prepaid], [IDPEL, 628811000953], [VOUCHER REF, 358913251737], [DENOMINASI, RP. 10.000], [], [], [], []], bpMap={customerName=, displayString=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       , currency_code_transaction=360, response_code=00, displayList=[[PAYMENT, Smart Prepaid], [IDPEL, 628811000953], [VOUCHER REF, 358913251737], [DENOMINASI, RP. 10.000], [], [], [], []], amount_transaction=1000000, billing_info=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       }, errorCode=No Error, billing_info=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       }, transferStatus=success, billPaymentMap={displayString=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       , totalBankCharge=null, status=success, displayList=[[PAYMENT, Smart Prepaid], [IDPEL, 628811000953], [VOUCHER REF, 358913251737], [DENOMINASI, RP. 10.000], [], [], [], []], bpMap={customerName=, displayString=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       , currency_code_transaction=360, response_code=00, displayList=[[PAYMENT, Smart Prepaid], [IDPEL, 628811000953], [VOUCHER REF, 358913251737], [DENOMINASI, RP. 10.000], [], [], [], []], amount_transaction=1000000, billing_info=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       }, errorCode=No Error, billing_info=08PAYMENT    : Smart Prepaid            IDPEL      : 628811000953             VOUCHER REF:   358913251737           DENOMINASI : RP. 10.000                                                                                                                                                                       }, billPaymentMode=mobileVoucher, transactionDate=Thu Dec 04 10:04:10 ICT 2014}
+
+data info saldo : {Name=KRISANDRA PRIYAGAMA, WorkingBalance=4.9999E10, ProductType=Tabungan Sinarmas-Statement, AvailableBalance=4.999895E10, CurrentBalance=4.9999E10, AccountNumber=0001216023, Currency=IDR}
+
+
+------------------------------ restart & cara naikin war ------------------------------------------------------------------------------------------------------------------------------------------------------
+naikin web di 83
+/usr/local/tomcat/bin
+./shutdown.sh
+ps -ax|grep tomcat
+kill -9 (pidnya)
+baru copy .war nya
+kedalam webapps
+trus nyalain lagi
+di bin nya
+./startup.sh
+
+
+rm -rdf namafile <<hapus file
+
+
+http://simigi.banksinarmas.com/PersonalBanking/server-init?action=ReloadSysParam
+
+---------------------------------cardless------------------------------------------------------------------------------------------------------------------------------------------------------
+booking message withdrawal
+mt = 0200
+to acc : 8102214000000018 88089639130355
+systems_trace_audit_number : 000169
+proccode : 491090
+transmission_date_time : 0916092959
+amount : 3000000
+rrn = 062600001269 
+06430200F77A443FA8E1A0020000000056000082166396879910141221491090000000000000300000000000000000300000091609295900000000610000000001691529590626062660110212C00000000C00000000C00000000C000000000315303153276396879910141221=210912099506260000126915312201ID0010122      Sumedang - Bandung R                 IDN107SMMF QQ ANDI                                  IKE SEPTIENI NUR              SOREANG                       03603601561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   031531000098060161488089639130355001A003153
+
+execute message withdrawal
+mt = 0200
+to acc : 8102214000000018 88089639130355
+systems_trace_audit_number : 000169
+proccode : 011090
+transmission_date_time : 0916092959
+amount : 1000000
+rrn = 000000000169
+06430200F77A443FA8E1A0020000000056000082166396879910141221011090000000000000300000000000000000300000091609295900000000610000000008991529590626062660110212C00000000C00000000C00000000C000000000315303153276396879910141221=210912099500000000089915312201ID0010122      Sumedang - Bandung R                 IDN107SMMF QQ ANDI                                  IKE SEPTIENI NUR              SOREANG                       03603601561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   031531000098060161488089639130355001A003153
+
+
+-----------new-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+execute message withdrawal
+mt = 0200
+[amount_transaction] (string) : 100000
+[processing_code] (string) : 010000
+[reserved_private_1] (string) : 3333333333123456
+[systems_trace_audit_number] (string) : 000520
+[transmission_date_time] (string) : 1009070654
+[network_international_identifier] (string) : 219
+05020200F7FA443F88E0E00A000000005200008016639687000000000001000000000000001000000000000000001000000010090706540000000060000000610000000006291406540919091960110002C00000000C00000000C00000000C00000000031530315309190000006415302105ID0010121      ROXY SQUARE                          IDN36036036001633333333331234561561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   0315300001A
+
+request otp cardless deposit
+[message type] (string) : [0600]
+[amount_transaction] (string) : [1000000]
+[processing_code] (string) : [990000]
+[systems_trace_audit_number] (string) : [000701]
+[transmission_date_time] (string) : [1117072318]
+[reserved_private_1] (string) : [2222222229]   
+04450600F77A452188E0A00A0000000040000080166396870000000000990000000000000001000000000000000001000000111707231800000000610000000007011423181023102360110212192031530315310230000066215302105ID0010021      ROXY SQUARE                          IDN36036001022222222291561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   001B
+
+execute message deposit
+mt = 0200
+[amount_transaction] (string) : 10000000    00500000
+[processing_code] (string) : 010000
+[reserved_private_1] (string) : 9999999999123456  0111241017123456
+[systems_trace_audit_number] (string) : 000520
+[transmission_date_time] (string) : 1009070654
+[network_international_identifier] (string) : 219
+05020200F7FA443F88E0E00A000000005200008016639687000000000001000000000000001000000000000000001000000010090706540000000060000000610000000006291406540919091960110002C00000000C00000000C00000000C00000000031530315309190000006415302105ID0010121      ROXY SQUARE                          IDN36036036001601112410171234561561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   0315300001A
+
+05020200F7FA443F88E0E00A000000005200008016639687000000000000050000000000000050000000000000001000000010090706540000000060000000610000000006291406540919091960110002C00000000C00000000C00000000C00000000031530315309190000006415302105ID0010121      ROXY SQUARE                          IDN36036036001601112410171234561561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   0315300001A
+
+
+inquiry message withdrawal
+mt = 0200
+[amount_transaction] (string) : 2500000
+[retrieval_reference_number] (string) : 091500000019
+[systems_trace_audit_number] (string) : 000445
+[processing_code] (string) : 371000
+[to_account] (string) : 88089639130355
+[transmission_date_time] (string) : 0922021609
+05240200F77A443FA8E0A0060000000052000082166396879910000047371000000000000002500000000000000002500000092202160900000000610000000004450916090915091560110212C00000000C00000000C00000000C000000000315303153276396879910000047=210912069509150000001915312001ID0010120      DELTAMAS BEKASI                      IDN3603600001561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   031531488089639130355001A003153
+
+
+booking new
+ [amount_transaction] (string) : [10000000]
+ [from_account] (string) : [0009421017]
+ [primary_account_number_(pan)] (string) : [6396879910000047]
+ [systems_trace_audit_number] (string) : [045307]
+ [to_account] (string) : 85089639130355
+ [transmission_date_time] (string) : [0427085454]
+
+
+06430200F77A443FA8E1A0020000000056000082166396879910000047491000000000000010000000000000000010000000042708545400000000610000000453071554541013101360110212C00000000C00000000C00000000C000000000315303153276396879910000047=210912069510130000020115302105ID0010021      ROXY SQUARE                          IDN107                                              Smart AI                                                    03603601561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   031531000094210171485089639130355001A003153
+
+
+newwww
+ [amount_transaction] (string) : [10000000]
+ [from_account] (string) : [0009421017]
+ [primary_account_number_(pan)] (string) : [6396879910000047]
+ [systems_trace_audit_number] (string) : [045401]
+ [to_account] (string) : 85089639130355  >> 8508159493492
+ [transmission_date_time] (string) : [0427085454]
+
+
+06420200F77A443FA8E1A0020000000056000082166396879910000047491000000000000010000000000000000010000000042708545400000000610000000454011554541013101360110212C00000000C00000000C00000000C000000000315303153276396879910000047=210912069510130000020115302105ID0010021      ROXY SQUARE                          IDN107                                              Smart AI                                                    03603601561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   03153100009421017138508159493492001A003153
+
+
+
+
+ [systems_trace_audit_number] (string) : [011198]
+simpati booking   >> 88081295927618
+06430200F77A443FA8E1A0020000000056000082166396879910000047491000000000000010000000000000000010000000102408545400000000610000000111991554541013101360110212C00000000C00000000C00000000C000000000315303153276396879910000047=210912069510130000020115302105ID0010021      ROXY SQUARE                          IDN107                                              Smart AI                                                    03603601561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   031531000094210171488081295927618001A003153
+
+
+execute
+ [amount_transaction] (string) : [10000000]
+[reserved_private_1] (string) : [0004871031123456]   
+ [transmission_date_time] (string) : [1031070956]
+ [systems_trace_audit_number] (string) : [001972]
+
+05020200F7FA443F88E0E00A000000005200008016639687000000000001000000000000001000000000000000001000000010310709560000000060000000610000000019731409561016101660110002C00000000C00000000C00000000C00000000031530315310160000035715302105ID0010021      ROXY SQUARE                          IDN36036036001600048710311234561561000000000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000000000C0000000000000000360000000                   0315300001A
+
+
+
+
+
+
+
+/////////
+backup data
+1589	1101			10-02-2015 03.20.52,000000000	10300	7500	17800	106001	IS-ARTHAKU	021465	6099			11223344	185	000000051465	91	Transfer Transaction		
+1590	1101			10-02-2015 03.20.52,000000000	-10300	-7500	-17800	106001	IS-ARTHAKU	475001	6099			11223344	185	000000051465	91	REV-Transfer Transaction		
+1591	1101			10-02-2015 04.18.27,000000000	10300	7500	17800	106001	IS-ARTHAKU	021473	6099			11223344	185	000000051473	91	Transfer Transaction		
+1592	1101			10-02-2015 04.18.27,000000000	-10300	-7500	-17800	106001	IS-ARTHAKU	477001	6099			11223344	185	000000051473	91	REV-Transfer Transaction		
+1593	1101			10-02-2015 04.26.31,000000000	10300	7500	17800	106001	IS-ARTHAKU	021483	6099			11223344	185	000000051483	91	Transfer Transaction		
+1594	1101			10-02-2015 04.26.31,000000000	-10300	-7500	-17800	106001	IS-ARTHAKU	477002	6099			11223344	185	000000051483	91	REV-Transfer Transaction		
+1595	1101			10-02-2015 04.37.33,000000000	10300	7500	17800	106001	IS-ARTHAKU	021488	6099			584488	185	000000051488	91	Transfer Transaction		
+1596	1101			10-02-2015 04.37.33,000000000	-10300	-7500	-17800	106001	IS-ARTHAKU	477003	6099			584488	185	000000051488	91	REV-Transfer Transaction		
+1597	1101			10-02-2015 04.40.33,000000000	10400	7500	17900	103001	IS-ARTHAKU	021492	6099			584488	185	000000051492	91	Transfer Transaction		
+1598	1101			10-02-2015 04.40.33,000000000	-10400	-7500	-17900	103001	IS-ARTHAKU	477004	6099			584488	185	000000051492	91	REV-Transfer Transaction		
+1599	1101			10-02-2015 06.16.22,000000000	10500	7500	18000	103001	IS-ARTHAKU	021503	6099			5574155	185	000000051503	91	Transfer Transaction		
+1600	1101			10-02-2015 06.16.22,000000000	-10500	-7500	-18000	103001	IS-ARTHAKU	477005	6099			5574155	185	000000051503	91	REV-Transfer Transaction		
+1601	1101			10-02-2015 06.19.20,000000000	10500	7500	18000	101001	IS-ARTHAKU	021507	6099			5574155	185	000000051507	91	Transfer Transaction		
+1602	1101			10-02-2015 06.19.20,000000000	-10500	-7500	-18000	101001	IS-ARTHAKU	477006	6099			5574155	185	000000051507	91	REV-Transfer Transaction		
+1603	1101			10-02-2015 06.23.08,000000000	10500	7500	18000	101001	IS-ARTHAKU	021512	6099			5574155	185	000000051512	91	Transfer Transaction		
+1604	1101			10-02-2015 06.23.08,000000000	-10500	-7500	-18000	101001	IS-ARTHAKU	477007	6099			5574155	185	000000051512	91	REV-Transfer Transaction		
+1605	1101			10-02-2015 10.13.42,000000000	10500	7500	18000	101001	IS-ARTHAKU	021569	6099			5574155	185	000000051569	91	Transfer Transaction		
+1606	1101			10-02-2015 10.13.42,000000000	-10500	-7500	-18000	101001	IS-ARTHAKU	477008	6099			5574155	185	000000051569	91	REV-Transfer Transaction		
+
+
+
+
+
+////////////////
+cardless mbanking
+
+   [systems_trace_audit_number] (string) : [633358]
+   [time_local_transaction] (string) : [134114]
+   [to_account] (string) : [85089639130355]
+   [transmission_date_time] (string) : [0224134114]
+
+02580200F23A44E188E2000000000000160000821650628129592761863710000000000000040005000224134114633358134114021302136017000050660315303153000001033358153901006281295927618  SMS MFINO                               0071033358031531000327116771485089639130355001B003153
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+02460200F23A400188E080080000000044000080100002838796560000000000000002500000021809582493357816582401120112601403153031530016746994551538818019470930070    PT Kreasi Teknologi Solusindo         ID360012628159525008011003                   06561000001A
+
+   [acquiring_institution_identification_code] (string) : [153]
+   [amount_transaction] (string) : [2500000]
+   [card_acceptor_identification_code] (string) : [19470930070    ]
+   [card_acceptor_name/location] (string) : [PT Kreasi Teknologi Solusindo         ID]
+   [card_acceptor_terminal_identification] (string) : [15388180]
+   [currency_code_transaction] (string) : [360]
+   [date_local_transaction] (string) : [0112]
+   [date_settlement] (string) : [0112]
+   [forwarding_institution_identification_code] (string) : [153]
+   [from_account] (string) : [561000]
+   [merchant_type] (string) : [6014]
+   [message type] (string) : [0200]
+   [packetLength] (integer) : [251]
+   [payee] (string) : [011003                   ]
+   [primary_account_number_(pan)] (string) : [0002838796]
+   [processing_code] (string) : [560000]
+   [reserved_for_private_use_2] (string) : [A]
+   [reserved_private_1] (string) : [628159525008]
+   [retrieval_reference_number] (string) : [001674699455]
+   [systems_trace_audit_number] (string) : [933578]
+   [time_local_transaction] (string) : [165824]
+   [transmission_date_time] (string) : [0218095824]
+   
+im3 628568278229
+mentari 628159525008
+
+011002=kbs|011002|Indosat Mentari Ooredoo|Indosat Mentari Ooredoo
+011003=kbs|011003|Indosat IM3 Smart Ooredoo|Indosat IM3 Ooredoo
+   
+   
+62813141416001  --> DENOM 20.000
+62812890789123  --> DENOM 25.000
+62853695312345  --> DENOM 1.000.000
+
+Negative case 
+62853141416039  --> RC 83
+
+
+
+
+
+
+
+
+
+  
+konve  
+   
+04950200F23A44E188E38002000000001600000215506288112145664490000000000000004800000041809501116488309183211031103609901100066031530315300000013354715390100628811214566   SMS SMART                               006133509108M FERDIANSYAH                                 Fajar Hidayat                 KC Tanah Abang                103601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100031790678100002838796003153
+
+   [retrieval_reference_number] (string) : [000000133547]
+   [systems_trace_audit_number] (string) : [164883]
+   [time_local_transaction] (string) : [091832]
+   [to_account] (string) : [0002838796]
+   [transmission_date_time] (string) : [0418095011]
+   
+   
+
+----------------------------------------------------------------------------------------------------
+
+syariah  
+   
+04950200F23A44E188E38002000000001600000215506288112145664490000000000000004800000021709501116655809183211031103609901100066031530315300000613552315390100628811214566   SMS SMART                               006133509108M FERDIANSYAH                                 Fajar Hidayat                 KC Tanah Abang                103601301000000013001C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C00000000C0000000003153100031790678109900001212003153
+
+
+   [retrieval_reference_number] (string) : [000006135523]
+   [systems_trace_audit_number] (string) : [166558]
+   [time_local_transaction] (string) : [091832]
+   [to_account] (string) : [9900001212]
+   [transmission_date_time] (string) : [0222095011]
+   
+   
+   
+   
+ppob - 5099 procode - baznas
+[systems_trace_audit_number] (string) : [195672]
+[transmission_date_time] (string) : [0330042638]
+02950200F23A400188E0800C000000004400008016510481100111154550990000000000001000060003300426381956721126380825111260990612110003153013316112638T001    0              JAKARTA                                 3600166282310000005   0336282310000002   0               0009901                   06561000001A
+
+
+
+
+
+
+
+
+
+Dear Intan,
+
+Mohon untuk menjalankan query dibawah ini untuk reporting CorpIB di 
+bulan Desember 2016.
+
+Hasil nya bisa disimpan dalam format .csv untuk masing" query.
+
+Terima Kasih,
+
+
+#inbank.csv
+select c.cif_code,a.account_number,sft.target_account,sft.amount, 
+sft.total_amount_debited, 
+sft.created_by,sft.created_date,sft.transfer_date,s.name
+from fund_transfer_transaction sft,customer c,account a, status s
+where sft.account=a.id and a.customer=c.id and sft.status=s.id
+and sft.transaction_type=(select id from lookup where type='transaction' 
+and code='transferfund')
+and sft.transfer_date >=to_date('01/12/2016 00:00:00','DD/MM/YYYY 
+HH24:MI:SS')
+;
+
+#rtgs.csv
+select c.cif_code,a.account_number,sft.target_account,sft.amount, 
+sft.total_amount_debited,eb.bank_name, 
+sft.created_by,sft.created_date,sft.transfer_date,s.name
+from fund_transfer_transaction sft,customer c,account a, external_bank 
+eb , status s
+where sft.account=a.id and a.customer=c.id and 
+sft.target_bank=eb.rtgs_code and sft.status=s.id
+and sft.transaction_type=(select id from lookup where type='transaction' 
+and code='transferfundrtgs')
+and sft.transfer_date >=to_date('01/12/2016 00:00:00','DD/MM/YYYY 
+HH24:MI:SS')
+;
+
+#skn.csv
+select c.cif_code,a.account_number,sft.target_account,sft.amount, 
+sft.total_amount_debited,eb.bank_name, 
+sft.created_by,sft.created_date,sft.transfer_date,s.name
+from fund_transfer_transaction sft,customer c,account a, external_bank 
+eb , status s
+where sft.account=a.id and a.customer=c.id and 
+sft.target_bank=eb.rtgs_code and sft.status=s.id
+and sft.transaction_type=(select id from lookup where type='transaction' 
+and code='transferfundskn')
+and sft.transfer_date >=to_date('01/12/2016 00:00:00','DD/MM/YYYY 
+HH24:MI:SS')
+;
+
+#network.csv
+select c.cif_code,a.account_number,sft.target_account,sft.amount, 
+sft.total_amount_debited,eb.bank_name, 
+sft.created_by,sft.created_date,sft.transfer_date,s.name
+from fund_transfer_transaction sft,customer c,account a, external_bank 
+eb , status s
+where sft.account=a.id and a.customer=c.id and 
+sft.target_bank=eb.bank_code and sft.status=s.id
+and sft.transaction_type=(select id from lookup where type='transaction' 
+and code='transferfundnetwork')
+and sft.transfer_date >=to_date('01/12/2016 00:00:00','DD/MM/YYYY 
+HH24:MI:SS')
+;
+
+#bpm.csv
+select 
+bpm.transaction_reference_number,bpm.billed_amount,bpm.payment_amount,bpm.created_by,bpm.created_date,bpm.transaction_date,bpm.customer_number,
+a.account_number,s.code as status,l.code as 
+trans_type,c.cif_code,c.full_name
+from bill_payment_transaction bpm,account a,status s,lookup l ,customer 
+c where bpm.debit_account=a.id and bpm.status=s.id
+and bpm.transaction_type=l.id and bpm.customer_id=c.id
+and bpm.transaction_date >=to_date('01/12/2016 00:00:00','DD/MM/YYYY 
+HH24:MI:SS')
+;
+
+ALTER TABLE NEWS ADD BRIEF2 VARCHAR2(4000);
+UPDATE NEWS
+   SET BRIEF2 = DBMS_LOB.SUBSTR (BRIEF, 4000),
+       BRIEF = NULL;
+
+ALTER TABLE NEWS DROP COLUMN BRIEF;
+ALTER TABLE NEWS RENAME COLUMN BRIEF2 TO BRIEF;
+
+
+ALTER TABLE NEWS ADD NEWS_CONTENT2 VARCHAR2(4000);
+UPDATE NEWS
+   SET NEWS_CONTENT2 = DBMS_LOB.SUBSTR (NEWS_CONTENT, 4000),
+       NEWS_CONTENT = NULL;
+
+ALTER TABLE NEWS DROP COLUMN NEWS_CONTENT;
+ALTER TABLE NEWS RENAME COLUMN NEWS_CONTENT2 TO NEWS_CONTENT;
+
+
+Autodebet :
+- jika dari channel IB daftar AD > call TableAutodebitOrderTask mode insert
+
+- AutodebitAdaptor (cari autodebitOrder yg nextRun nya <= now) >> NewAutodebitMsgQueue.push(autodebitOrder)
+
+- AutodebitRunner >> NewAutodebitMsgQueue.pop() >> call nextProcess >> AutodebitRunnerService.getInstance().add (for inq) >> AutodebitOrderBulkService.getInstance().update
+
+- AutodebitTransactionAdaptor >> cek retry < max retry >> AutodebitTransactionMsgQueue.push
+
+- AutodebitTransactionRunner >> AutodebitTransactionMsgQueue.pop() >> call processOrder >> adaptorADTrx.routeTransaction(request) (Send Message to UMG AD)
+
+- example PDAM to route >> paymentClosed:38 >> call TableAutodebitTransactionTask >> AutodebitTransactionService.getInstance().add (add log inq) >> AutodebitRunnerService.getInstance().add (for payment)
+
+//balik lg ke AutodebitRunner cek 
+- AutodebitRunner >> NewAutodebitMsgQueue.pop() >> call nextProcess >> AutodebitRunnerService.getInstance().add (for trx)
+
+- AutodebitTransactionRunner >> call processOrder >> adaptorADTrx.routeTransaction(request) (Send Message to UMG AD)
+
+
+Bulk : 
+- AutodebitTransactionAdaptor >> cek folder n insert ke table order bulk
+
+
+
+>> Query AD
+
+CREATE TABLE "UMGDBUAT"."AUTODEBIT_ORDER_BULK" 
+   (	"ID" NUMBER(19,0) NOT NULL ENABLE, 
+	"CORE" VARCHAR2(10 BYTE), 
+	"CIF" VARCHAR2(25 BYTE) NOT NULL ENABLE, 
+	"ACCOUNT_NO" VARCHAR2(250 BYTE) NOT NULL ENABLE, 
+	"MERCHANT" NUMBER(19,0) NOT NULL ENABLE, 
+	"SUBSCRIBER_ID" VARCHAR2(250 BYTE) NOT NULL ENABLE, 
+	"ADDITIONAL_INFO" VARCHAR2(50 BYTE), 
+	"AMOUNT" FLOAT(126) DEFAULT NULL, 
+	"BILLING_CYCLE" NUMBER(10,0) DEFAULT 5 NOT NULL ENABLE, 
+	"NEXT_RUN" DATE NOT NULL ENABLE, 
+	"TIME_INTERVAL" VARCHAR2(20 BYTE), 
+	"RETRY_COUNT" NUMBER(10,0) DEFAULT 0 NOT NULL ENABLE, 
+	"RETRY_DAY" NUMBER(10,0) DEFAULT 0 NOT NULL ENABLE, 
+	"STATUS" NUMBER(19,0) NOT NULL ENABLE, 
+	"CREATED_BY" VARCHAR2(30 BYTE) NOT NULL ENABLE, 
+	"CREATED_DATE" DATE NOT NULL ENABLE, 
+	"LAST_UPDATED_BY" VARCHAR2(30 BYTE) NOT NULL ENABLE, 
+	"LAST_UPDATED_DATE" DATE NOT NULL ENABLE, 
+	"RETRY_MONTH" NUMBER(10,0) DEFAULT 0 NOT NULL ENABLE, 
+	"REV_STATE" VARCHAR2(20 BYTE), 
+	"EMAIL" VARCHAR2(50 BYTE), 
+	"MOBILE_PHONE_NUMBER" VARCHAR2(20 BYTE), 
+	"BRANCH" NUMBER, 
+	"REFERENCE_DATE" DATE, 
+	"COMPANY" NUMBER, 
+	 PRIMARY KEY ("ID"))
+  TABLESPACE "UMGDBUAT" ;
+  
+CREATE SEQUENCE  "UMGDBUAT"."AUTODEBIT_ORDER_BULK_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+ 
+ CREATE TABLE "UMGDBUAT"."AUTODEBIT_COMPANY" 
+   (	"ID" NUMBER(19,0) NOT NULL ENABLE,
+	"CIF" VARCHAR2(25 BYTE) NOT NULL ENABLE, 
+	"COMPANY_NAME" VARCHAR2(50 BYTE) NOT NULL ENABLE, 
+	"ACCOUNT_NUMBER" VARCHAR2(20 BYTE) NOT NULL ENABLE, 
+	"STATUS" NUMBER(19,0) NOT NULL ENABLE, 
+	"CREATED_DATE" TIMESTAMP (6) NOT NULL ENABLE, 
+	"CREATED_BY" VARCHAR2(30 BYTE), 
+	"LAST_UPDATED_DATE" TIMESTAMP (6), 
+	"LAST_UPDATED_BY" VARCHAR2(30 BYTE), 
+	"APPROVED_BY" VARCHAR2(30 BYTE), 
+	"APPROVED_DATE" TIMESTAMP (6), 
+	"MOBILE_NUMBER" VARCHAR2(50 BYTE), 
+	"EMAIL" VARCHAR2(50 BYTE), 
+	"ID_CABANG" VARCHAR2(50 BYTE), 
+	"LANGUAGE" VARCHAR2(20 BYTE),
+	"PATH_INWARD" VARCHAR2(100 BYTE),
+	"PATH_OUTWARD" VARCHAR2(100 BYTE));
+	
+CREATE SEQUENCE  "UMGDBUAT"."AUTODEBIT_COMPANY_ID_SEQ"  MINVALUE 1 MAXVALUE 999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+ 
+ 
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','new','active','New','New AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','submitted','active','Submitted','Submitted AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','approved','active','Approved','Approved AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','rejected','active','Rejected','Rejected AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','pending','active','Pending','Pending AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','processed','active','Processed','Processed AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','activated','active','Activated','Token Activated');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','deleted','inactive','Deleted','Deleted AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','closed','inactive','Closed','Closed AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','removed','inactive','Removed','Removed AutodebitCompany');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitCompany','cancelled','inactive','Cancelled','Cancelled AutodebitCompany');
+
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','new','active','New','New AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','submitted','active','Submitted','Submitted AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','approved','active','Approved','Approved AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','rejected','active','Rejected','Rejected AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','pending','active','Pending','Pending AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','processed','active','Processed','Processed AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','activated','active','Activated','Token Activated');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','deleted','inactive','Deleted','Deleted AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','closed','inactive','Closed','Closed AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','removed','inactive','Removed','Removed AutodebitOrderBulk');
+insert into status (id,type,code,state,name,description) values(STATUS_ID_SEQ.nextval,'AutodebitOrderBulk','cancelled','inactive','Cancelled','Cancelled AutodebitOrderBulk');
+
+
+
+
+
+
+
+
+
+"SMSOTP","ENABLE_LOGIN_SEND_OTP_SPRINTASIA" P
+"SMSOTP","ENABLE_TRX_SEND_OTP_SPRINTASIA" R
+"SMSOTP","ENABLE_TRX_RESEND_OTP_SPRINTASIA" P
+"SMSOTP","ENABLE_OB_SEND_OTP_SPRINTASIA" P
+"SMSOTP","ENABLE_OB_RESEND_OTP_SPRINTASIA" P
+
+1eb637e3f1e26616
+
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'SMSOTP','ENABLE_LOGIN_SEND_OTP_SPRINTASIA','1eb637e3f1e26616',
+  'DISABLE_UNIQUE_REQUEST',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'systemAdmin'));
+  
+  
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'SMSOTP','ENABLE_TRX_SEND_OTP_SPRINTASIA','1eb637e3f1e26616',
+  'DISABLE_UNIQUE_REQUEST',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'systemAdmin'));
+  
+  
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'SMSOTP','ENABLE_TRX_RESEND_OTP_SPRINTASIA','1eb637e3f1e26616',
+  'DISABLE_UNIQUE_REQUEST',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'systemAdmin'));
+  
+  
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'SMSOTP','ENABLE_OB_SEND_OTP_SPRINTASIA','1eb637e3f1e26616',
+  'DISABLE_UNIQUE_REQUEST',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'systemAdmin'));
+  
+  
+insert into system_parameter (id,vgroup,PARAMETER,SVALUE,
+  DESCRIPTION,STATUS,CREATED_DATE,CREATED_BY,
+  LAST_UPDATED_DATE,LAST_UPDATED_BY,USER_LEVEL)
+values(SYSTEM_PARAMETER_ID_SEQ.nextval,'SMSOTP','ENABLE_OB_RESEND_OTP_SPRINTASIA','1eb637e3f1e26616',
+  'DISABLE_UNIQUE_REQUEST',(select id from status where type = 'systemparameter' and code = 'active'),SYSDATE,'system',
+  SYSDATE,'system',(select id from lookup where type = 'admin_level' and code = 'systemAdmin'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
